@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+h1.title {
+  text-align: center;
+  margin-bottom: 6;
+}
+p.subtitle {
+  text-align: center;
+  margin-top: 0;
+  line-height: 0;
+}
+
+p.mega {
+  font-size: 100;
+}
+
+p.small {
+  font-size: 12;
+  line-height: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+div.center {
+  text-align: center;
+}
+
+pre {
+  font-family: sans-serif;
+}
+
+#thetrumpet {
+  cursor: pointer;
+}
