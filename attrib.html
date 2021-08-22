@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <link href="pamt.css" rel="stylesheet"></link>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PAMT</title>
+	<link rel="shortcut icon" type="image/png" href="logo.png"/>
+  </head>
+  <body>
+    <h1 class="title">P.A.M.T</h1>
+    <p class="subtitle">People Against Music Theory</p>
+    <br>
+	<div class="center"><img src="logo.png" id="logo" width="100"></div>
+	<br>
+    <nav>
+      <a href="index.html">Home</a> *
+      <a href="albums.html">Albums</a> *
+      <a href="about.html">About</a> *
+	  <a href="qa.html">Q & A</a> *
+	  <a href="attrib.html">Attributions</a>
+    </nav>
+	<center>
+	<br>
+	<div>
+	<br>
+	<hr></hr>
+		The albums contain sounds by the following user:<br>
+		- Ax_Grinder ( <lin>https://freesound.org/people/Ax_Grinder/</lin> )<br>
+		<br>
+		You can find this pack online: <lin>https://freesound.org/people/Ax_Grinder/packs/14939/</lin>
+		<hr></hr>
+	</div>
+	<div>
+	<br>
+	<hr>
+		free sound effects from <lin>https://www.fesliyanstudios.com</lin>
+	</div>
+	
+	
+	</center>
+  </body>
+  <script>
+  // You shouldn't use the lin tag unless you include this script.
+  while (document.getElementsByTagName("lin").length > 0) {
+	for (let i of document.getElementsByTagName("lin")) {
+		let link = i.innerHTML;
+		let el = '<a href="' + link + '">' + link + '</a>';
+		i.outerHTML = el;
+	}
+   }
+  </script>
+</html>
