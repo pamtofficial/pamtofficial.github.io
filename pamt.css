@@ -12,8 +12,8 @@ p.subtitle {
   line-height: 0;
 }
 
-p.mega {
-  font-size: 100;
+.mega {
+  font-size: 100px;
 }
 
 p.small {
@@ -25,7 +25,7 @@ nav {
   text-align: center;
 }
 
-div.center {
+div.center, div.center-noscript, div.center-noscript-agnostic {
   text-align: center;
 }
 

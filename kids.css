@@ -1,0 +1,49 @@
+body {
+    font-family: 'Comic Sans MS' !important;
+}
+
+p, button, input, #result, a.button {
+    font-size: 28px;
+    font-family: 'Comic Sans MS';
+}
+
+button, input, a.button {
+    padding: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+a.button {
+    background-color: rgb(233, 233, 237);
+    border: 1px black solid;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: rgb(208, 208, 215);;
+}
+
+a.button:active {
+    background-color: rgb(177,177,185);
+}
+
+div.adultbutton {
+    display:inline-grid;
+    width:min-content;
+    padding: 0 30 0 30;
+    cursor:pointer;
+}
+
+a.adultbutton {
+    text-decoration: none;
+    color:black;
+}
+
+pre, summary {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
