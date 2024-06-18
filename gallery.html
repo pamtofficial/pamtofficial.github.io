@@ -17,9 +17,11 @@
     <nav>
       <a href="index.html">Back</a>
     </nav>
-    <h1>Gallery</h1>
-    <p>Right click > "Open image in new tab" to enlarge</p>
-    <div style="width: 95%; margin: auto; text-align: center;">
+    <div class="center">
+      <h1>Gallery</h1>
+      <noscript><p>Right click > "Open image in new tab" to enlarge</p></noscript>
+    </div>
+    <div style="width: 95%; margin: auto; text-align: center;" id="gallery">
         <img height="300" src="./gallery/VideoGamesIL1.jpg" alt="A P.A.M.T vs Video Games album sitting between 2 brochures in a northern Illinois travel oasis">
         <img height="300" src="./gallery/VideoGamesIN1.jpg">
         <img height="300" src="./gallery/VideoGamesPA1.jpg">
@@ -27,4 +29,9 @@
     </div>
   </body>
   <script src="navbar.js"></script>
+  <script>
+    for (let i of document.getElementById("gallery").children) {
+      i.outerHTML = `<a href="${i.src}" target="_blank">${i.outerHTML}</a>`
+    }
+  </script>
 </html>
