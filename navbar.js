@@ -8,7 +8,7 @@ const navbar = {
     "Q&A": "qa.html",
     "Attributions": "attrib.html",
     "Gallery": "gallery.html",
-    "PAMT Kids": "kids.html"
+    "PAMT Kids<img src='pamt kid head.svg' height=15 style='padding-left: 5pt;'>": "kids.html"
 }
 
 const nav_el = document.getElementsByTagName("nav")[0]

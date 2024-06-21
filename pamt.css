@@ -45,3 +45,8 @@ pre {
 .tnr {
   font-family: Times;
 }
+
+pb {
+  font-weight: bold;
+  margin: 1em 0px;
+}
