@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link href="../pamt.css" rel="stylesheet">
+        <link href="../kids.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="../logo.png"/>
+        <script src="md5.js"></script>
+        <script src="match.js"></script>
+        <script src="handle-noscript.js"></script>
+        
+        <title>PAMT Kids</title>
+        <noscript>
+            <style>
+                div.center {
+                    display: none;
+                }
+            </style>
+        </noscript>
+      </head>
+      <body>
+        <div class="center-noscript">
+            <h1 class="mega">YIKES!!!!</h1>
+            <p>It looks like JavaScript is disabled!</p>
+            <p>The Baby Shark challenge needs JavaScript to function.</p>
+            <br>
+            <p>Won't you turn it on for us? For Timmy?</p>
+            <img height=200 src="../pamt kid js.svg" alt="Timmy is crying! He is also wearing black shorts and a yellow shirt that says 'I (heart) JS. A speech bubble is next to him that says 'Pretty please...'">
+        </div>
+        <div class="center">
+            <p id="redirectNotif" style="font-size: 12pt; display: none;">Looks like you got here through a redirect. To get back to your previous website, hold down the back button to the left of your URL bar and click on the website you were previously on.</p>
+            <h1>Are you up to the BABY SHARK CHALLENGE?</h1>
+            <p>Listen for 20 or so digits in our Baby Shark cover and you'll earn a SPECIAL PRIZE!! WOW!!</p>
+            <p><b>We strongly recommend you write down the numbers with pencil and paper so you don't lose all of your progress after a bad key press!</b></p>
+            <audio src="../tracks/pamt-vs-childrens-music/Baby Shark (Challenge Version).mp3" controls></audio>
+            <br>
+            <p id="instructions">Enter the code here!</p>
+            <input type="text" id="code">
+            <br>
+            <button onclick="submit()" id="submit">Submit</button>
+            <div id="result"></div>
+            
+            
+        </div>
+        <div class="center-noscript-agnostic">
+            <a href="../kids.html">
+                <img width=200 src="pamt back.svg" alt="Back. The image is People Against Music Timmy gesturing to the left wearing a green shirt that says 'Back' with a left pointing arrow">
+            </a>
+        </div>
+      </body>
+      <script>
+        if (window.location.search.includes("redirect=true")) {
+            document.getElementById("redirectNotif").style.display = "block"
+        }
+      </script>
+      <script src="babyshark.js"></script>
+      
+</html>

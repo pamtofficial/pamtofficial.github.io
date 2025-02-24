@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+grbtn {
+    background-color: #0f0;
+    /*border: black 5px solid;*/
+    padding: 12px;
+    color: black;
+    display:block;
+    max-width: fit-content;
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+    margin-top: 25px;
+}
+
+grbtn:hover {
+    background-color: black;
+    color: white;
+}

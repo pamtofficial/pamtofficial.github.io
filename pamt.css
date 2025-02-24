@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+h1.title {
+  text-align: center;
+  margin-bottom: 6px;
+}
+p.subtitle {
+  text-align: center;
+  margin-top: 0px;
+  line-height: 0px;
+}
+
+.mega {
+  font-size: 100px;
+}
+
+p.small {
+  font-size: 12;
+}
+
+nav {
+  text-align: center;
+}
+
+div.center, div.center-noscript, div.center-noscript-agnostic {
+  text-align: center;
+}
+
+pre {
+  font-family: sans-serif;
+}
+
+#thetrumpet {
+  cursor: pointer;
+}
+
+.hidden {
+	color: black;
+	text-decoration: none;
+}
+
+.tnr {
+  font-family: Times, serif;
+}
+
+pb {
+  font-weight: bold;
+  margin: 1em 0px;
+}

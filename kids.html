@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link href="pamt.css" rel="stylesheet">
+    <link href="kids.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    <title>PAMT Kids</title>
+  </head>
+  <body>
+    <div class="center">
+      <h1 style="font-size: 80;">HEY KIDS!!!</h1>
+      <p>We hope you enjoyed our PEOPLE AGAINST MUSIC THEORY VS CHILDREN's MUSIC album!!</p>
+      <p>This is People Against Music Timmy, our mascot!</p>
+      <img width="200" style="cursor: pointer;" onclick="alert('Hello! I am Timmy!')"src="pamt kid.svg" alt="People Against Music Timmy, a cartoon kid with a red shirt, purple shorts, and three strands of hair">
+      <p>He has some ACTIVITIES for you to do!</p>
+      <div style="display: grid; max-width:max-content;margin:auto;">
+        <a class="button" href="./kid-stuff/music.html">LISTEN TO THE ALBUM</a>
+        <a class="button" href="./kid-stuff/piano.html">LEARN PIANO WITH SESAMIE STREET</a>
+        <a class="button" href="./kid-stuff/babyshark.html">DO THE BABY SHARK CHALLENGE</a>
+        <a href="./kid-stuff/adult.html" style="margin-top: 50px">For adults</a>
+      </div>
+    </div>
+    <script>
+      function navigate(page) {
+        // Had to do this instead of wrapping <button> elements with <a> because it would mess up the styling otherwise
+        var a = document.createElement("a");
+        a.href = "./kid-stuff/" + page + ".html"
+        a.click()
+      }
+    </script>
+  </body>
+</html>

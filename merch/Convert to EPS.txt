@@ -1,0 +1,16 @@
+Method 1 (most user-friendly):
+1. Go to https://cloudconvert.com/svg-to-eps
+2. Drag in your desired SVG file
+    NOTE: You don't really need to convert text to path if you don't want to, we have already done it. If you've added your own text, open Inkscape, click on the text object, click on Path > Object to Path, and save.
+3. Click "Convert"
+4. Once it's done, click download
+
+Method 2 (for Inkscape users):
+1. Open the desired SVG in Inkscape
+2. Click File > Save As
+3. In the file extension box, select "Encapsulated PostScript (*.eps)"
+4. When it prompts you for PostScript options, click "Convert text to paths" and then OK
+
+Method 3 (command line):
+1. Open your command prompt and make sure `inkscape --version` doesn't error out. If it does and you're on Windows, you may need to add inkscape.exe to your PATH.
+2. Type in `inkscape [your file name].svg -o [your file name again].eps --export-ps-level=3`

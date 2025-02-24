@@ -1,0 +1,5 @@
+Method 1 (for Inkscape users):
+1. Open the desired SVG in Inkscape
+2. Click File > Save As
+3. In the file extension box, select "Portable Document Format (*.pdf)"
+4. When it prompts you for Portable Document Format options, click "Convert text to paths" and then OK.

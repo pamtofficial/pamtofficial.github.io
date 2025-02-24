@@ -1,0 +1,46 @@
+<!--https://media.mas.to/media_attachments/files/110/845/769/177/207/648/original/0c09e4fca0a7a5c3.jpg-->
+<html lang="en">
+  <head>
+    <link href="pamt.css" rel="stylesheet"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PAMT</title>
+	<link rel="shortcut icon" type="image/png" href="logo.png"/>
+  </head>
+  <body>
+    <h1 class="title">P.A.M.T</h1>
+    <p class="subtitle">People Against Music Theory</p>
+    <br>
+	<div class="center">
+        <img src="logo.png" id="logo" width="100">
+    </div>
+	<br>
+    <nav>
+      <a href="index.html">Back</a>
+    </nav>
+    <div class="center">
+      <h1>Gallery</h1>
+      <noscript><p>Right click > "Open image in new tab" to enlarge</p></noscript>
+    </div>
+    <div style="width: 95%; margin: auto; text-align: center;" id="gallery">
+        <img height="300" src="./gallery/ChildrenVA01.jpg">
+        <img height="300" src="./gallery/ChildrenMD03.jpg">
+        <img height="300" src="./gallery/ChildrenMD02.jpg">
+        <img height="300" src="./gallery/ChildrenMD01.jpg">
+        <img height="300" src="./gallery/ChildrenDE02.jpg">
+        <img height="300" src="./gallery/ChildrenDE01.jpg">
+        <img height="300" src="./gallery/ChildrenPA03.jpg">
+        <img height="300" src="./gallery/ChildrenPA02.jpg">
+        <img height="300" src="./gallery/ChildrenPA01.jpg">
+        <img height="300" src="./gallery/VideoGamesIL1.jpg" alt="A P.A.M.T vs Video Games album sitting between 2 brochures in a northern Illinois travel oasis">
+        <img height="300" src="./gallery/VideoGamesIN1.jpg">
+        <img height="300" src="./gallery/VideoGamesPA1.jpg">
+        <img height="300" src="./gallery/BrodewayNY1.jpg">
+    </div>
+  </body>
+  <script src="navbar.js"></script>
+  <script>
+    for (let i of document.getElementById("gallery").children) {
+      i.outerHTML = `<a href="${i.src}" target="_blank">${i.outerHTML}</a>`
+    }
+  </script>
+</html>
